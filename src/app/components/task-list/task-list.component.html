@@ -1,0 +1,9 @@
+<div class="card" *ngFor="let task of tasks" (newPost)="OnNewPostCreated($event)">
+    <div class="card-body">
+        <!-- <img  alt="ddd"> -->
+        <h3>{{task.title}}</h3>
+        <p>{{task.body}}</p>
+    </div>
+</div>
+
+<!-- output, input, eventEmitter, Angular Reactive Forms, Angular Routing -->
